@@ -12,9 +12,8 @@ public class Solution {
         int length = A.length()+B.length();
         System.out.println(length);
 
-        if(A.compareTo(B) < 0) {
-            System.out.println("No");
-        }
+        System.out.println(A.compareTo(B) > 0 ? "Yes" : "No");
+
         String firstLetterA = A.substring(0,1).toUpperCase();
         String restLettersA = A.substring(1).toLowerCase();
 
